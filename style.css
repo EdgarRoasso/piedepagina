@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*saco las viñeta */
+  list-style: none;
+}
+body {
+  /*elijo letra */
+  font-family: sans-serif;
+  /*es para que la primera letra este en mayuscula*/
+
+  text-transform: capitalize;
+}
+.conteiner {
+  max-width: 1200px;
+  /*0 y auto para que no se salga del margen*/
+  margin: 0 auto;
+}
+.footer {
+  background-color: #242628B;
+  /*80 arriba abajo 0 margen*/
+  padding: 80px 0;
+}
+.footer-rom {
+  display: flex;
+  /*esto es para que se adapte a la pantalla*/
+  flex-wrap: wrap;
+}
+.footer-links {
+  width: 25%;
+  /*0 y 15 de izquierda a derecha*/
+  padding: 0 15px;
+}
+.footer-links h4 {
+  font-size: 20px;
+  color: #ffffff;
+  /*margen acia abajo*/
+  margin-bottom: 25px;
+  /*para que no se vea tan gruesa la letra*/
+  font-weight: 500;
+  border-bottom: 2px solid #00c3ff;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer-links ul li a {
+  font-size: 18px;
+  /*quita linea debajo enlase*/
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  /*separacion hasia abajo*/
+  margin-bottom: 15px;
+  /*dura 5 segundos y cambia de color*/
+  transition: all .5s ease;
+}
+.footer-links ul li a:hover {
+  /*cambia color de letras cuando pasa cursor sobre ellas */
+  color: gold;
+  padding-left: 6px;
+}
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(255, gre255en, blu255e, alp0.2ha);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: red;
+  transition: all 20s ease;
+}
+.social-link a:hover {
+  background-color: red;
+}
+00c3 
