@@ -27,6 +27,58 @@ body {
 
   text-transform: capitalize;
 }
+button {
+  border: 0;
+  /*hace linea alrededor pasando por 3 colores */
+  background-image: linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00ddff
+  );
+  /*redondeo boton */
+  border-radius: 8px;
+  color: white;
+  /*caja flexibler */
+  display: flex;
+  /*fuente tamaño */
+  font-size: 18px;
+
+  padding: 4px;
+  cursor: pointer;
+  transition: 2s;
+}
+button span{
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 2s;
+}
+button :hover span {
+  background: none;
+}
+button :active{
+  transform: scale(0.9);
+}
+/* body .boton {
+  display: block;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*ancho de letra*/
+  /* font-weight: 700; */
+  /*redondeo los bordes*/
+  /* border-radius: 10px; */
+  /*margen izq der*/
+  /* margin: 150px 130px; */
+  /*15 arriba abajo y 30 izq der*/
+  /* padding: 15px 30px; */
+  /*color de fondo */
+  /* background-color: #7a3604; */
+  /*color de letra */
+  /* color: #fff; */
+  /*saco linea inferior */
+  /* text-decoration: none; */
+} */
 .conteiner {
   max-width: 1200px;
   /*0 y auto para que no se salga del margen*/
